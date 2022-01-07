@@ -1,2 +1,22 @@
-# yafLaravel
-这是一个yaf集成 laravel orm redis monolog 自动验证等
+# yafDemo
+
+#### 介绍
+基于yaf框架开发的api接口
+
+#### 软件架构
+软件架构说明
+
+
+#### 安装教程
+
+1. yaf开启命名空间
+2. 安装yaf扩展
+
+#### 使用说明
+
+1. 切记一定要安装 yaf扩展 并开启命名空间
+
+
+#### 参与贡献
+
+1. @renzhifan
