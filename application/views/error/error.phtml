@@ -1,0 +1,4 @@
+<?php
+echo "<p>ErrorCode:". $exception->getCode(),"</p>\n";
+echo "<p>In Line:"  . $exception->getFile(),"In Line:"  . $exception->getLine(),"</p>\n";
+echo(str_replace("\n","<br/>\n",$exception->__toString()));

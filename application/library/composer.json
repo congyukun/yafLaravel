@@ -1,0 +1,32 @@
+{
+    "name": "hhz/jst",
+    "authors": [
+        {
+            "name": "haohaozhu",
+            "email": "haohaozhu@haohaozhu.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^8.7",
+        "illuminate/validation": "^8.7",
+        "illuminate/events": "^8.7",
+        "illuminate/pagination": "^8.7",
+        "illuminate/redis": "^8.7",
+        "doctrine/dbal" : "3.2.*",
+        "wxxiong6/wxxlogger" : "1.0.*",
+        "guzzlehttp/guzzle": "^7.4",
+        "predis/predis": "^1.1",
+        "monolog/monolog": "^2.3",
+        "symfony/var-dumper": "^5.4"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+
+    "autoload": {
+        "files": [
+            "helpers/laravel_helpers.php"
+        ]
+    }
+}
